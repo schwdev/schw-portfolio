@@ -1,0 +1,34 @@
+.container-geral {
+    background-color: #755B69;
+    width: 100%;
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+@media screen and (max-width: 768px) {
+    .container-geral{
+        min-height: 110vh;
+    }
+  }
+
+@media screen and (max-width: 600px) {
+    .container-geral{
+        min-height: 100vh;
+    }
+  }
+
+  @media screen and (max-width: 375px) {
+    .container-geral{
+        min-height: 130vh;
+    }
+  }
+
+  @media screen and (max-width: 360px) {
+    .container-geral{
+        min-height: 120vh;
+    }
+  }

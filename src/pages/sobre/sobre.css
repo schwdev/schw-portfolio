@@ -1,0 +1,55 @@
+.experience {
+    width: 100%;
+    margin-top: 10vh;   
+}
+
+.dateStyle {
+    color: #ADF1D2;
+}
+
+
+.sobreH1 {
+    color: #ADF1D2;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+.cursoSobre{
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.cursoSobre span{
+    color: #ADF1D2;
+}
+
+.cursoSobre h3{
+    color: #96C5B0;
+}
+
+.cursoSobre ul {
+ 
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 2rem;
+}
+
+.cursoSobre li{
+   
+    line-height: 6;
+}
+
+.skills {
+    width: 1000px;
+    text-align: center;
+    opacity: 1;
+}

@@ -1,0 +1,60 @@
+.maps{
+    width: 95%;
+    margin-bottom: 5vh;
+    border: 12px solid #553555;
+    border-radius: 5px;
+}
+
+.form-content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.contato-content {
+  
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 18vh;  
+}
+
+.map-marker{
+    margin-top: -30px;
+    font-weight: 900;
+}
+
+.form-label {
+    min-width: 360px;
+    text-align: left;
+}
+
+.form-label h4 {
+    color: #96B690;
+    text-align: left;
+}
+
+.form-label h4:hover {
+    color: #ADF1D2;
+    cursor: pointer;
+}
+
+.button-form{
+    background-color: #96B690 !important;
+    color: #553555 !important;
+    font-weight: 700 !important;
+    border: 0 !important;
+    width: 100%;
+}
+
+.button-form:hover {
+    background-color: #ADF1D2 !important;
+    
+}
+
+.text-form-muted {
+   color: #96B690 !important;
+}

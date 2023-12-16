@@ -1,0 +1,17 @@
+.content-footer {
+    background-color: #553555;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    width: 100%;
+    min-height: 10vh;
+}
+
+.icon-footer {
+    color: #96C5B0;
+}
+.icon-footer:hover {
+    color: #ADF1D2;
+    cursor: pointer;
+}
