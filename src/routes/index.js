@@ -9,10 +9,10 @@ export default function RoutesApp() {
 
        
             <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/sobre" element={<Sobre />} />
-                <Route path="/galeria" element={<Galeria />} />
-                <Route path="/contato" element={<Contato />} />
+                <Route path="/schw-portfolio" element={<Home />} />
+                <Route path="/schw-portfolio/sobre" element={<Sobre />} />
+                <Route path="/schw-portfolio/galeria" element={<Galeria />} />
+                <Route path="/schw-portfolio/contato" element={<Contato />} />
             </Routes>
        
 
