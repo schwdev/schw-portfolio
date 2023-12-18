@@ -7,7 +7,7 @@ import Container from './components/Container';
 function App() {
   return (
     <BrowserRouter>
-
+   
       <Header />
 
 
@@ -19,9 +19,8 @@ function App() {
       <Footer />
 
 
+      </BrowserRouter>
 
-
-    </BrowserRouter>
   );
 }
 
