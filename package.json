@@ -1,7 +1,6 @@
 {
-  "name": "schw",
+  "name": "schwdev",
   "version": "0.1.0",
-  "homepage": "https://schwdev.github.io/schw-portfolio",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
@@ -54,5 +53,9 @@
   },
   "devDependencies": {
     "gh-pages": "^6.1.0"
-  }
+  },
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
