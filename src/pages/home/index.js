@@ -18,7 +18,7 @@ export default function Home() {
   //End Lottie File
 
   const [ texto ] = useTypewriter({
-    words: ["Analista de Redes.", "Projetista em InfraEstrutura de Redes.", "Desenvolvedor Front-End (FreeLancer)."],
+    words: ["Projetista em InfraEstrutura de Redes.", "Desenvolvedor Front-End (FreeLancer).", "Analista em Segurança de Redes."],
     loop: true,
     typeSpeed: 40,
     deleteSpeed: 30,
