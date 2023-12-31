@@ -8,7 +8,7 @@ import { useTypewriter, Cursor } from 'react-simple-typewriter';
 export default function Home() {
 
   // Lottie File
-  const [animationStyle, setAnimationStyle] = useState(
+  const [animationStyle] = useState(
     {
       width: '100%',
       height: '100%',
@@ -18,7 +18,7 @@ export default function Home() {
   //End Lottie File
 
   const [ texto ] = useTypewriter({
-    words: ["Analista de Segurança em Redes.", "Projetista em InfraEstrutura de Redes.", "Desenvolvedor Front-End (FreeLancer)."],
+    words: ["Analista de Redes.", "Projetista em InfraEstrutura de Redes.", "Desenvolvedor Front-End (FreeLancer)."],
     loop: true,
     typeSpeed: 40,
     deleteSpeed: 30,
@@ -37,7 +37,6 @@ export default function Home() {
         <h3>Tenho <span>28 anos.</span></h3>
         <h2>Trabalho como: <span>{texto}<Cursor cursorColor='#ADF1D2'cursorStyle="|"/></span></h2>
         <h4>Meu trabalho é transformar idéias em soluções inteligentes!</h4>
-        <div><Button variant="outline-light me-3 fw-bold">Linkedin</Button> <Button variant="outline-light fw-bold">Meu CV</Button></div>
         
       </div>
       

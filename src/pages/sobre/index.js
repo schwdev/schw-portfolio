@@ -34,27 +34,7 @@ export default function Sobre() {
     <>
       <div className="experience">
         <VerticalTimeline lineColor="#553555">
-          <VerticalTimelineElement
-
-            className="vertical-timeline-element--education"
-            contentStyle={{ background: '#553555', boxShadow: 'none', color: '#ADF1D2', fontWeight: '900' }}
-            contentArrowStyle={{ borderRight: '10px solid  #553555' }}
-            iconStyle={{ background: '#553555', color: '#ADF1D2', boxShadow: "0px 0px 30px 5px rgba(173, 241, 210, 1)" }}
-            icon={<IoIosSchool />}
-            date="Dezembro - 2012"
-            dateClassName='dateStyle'
-          >
-            <h3 className="vertical-timeline-element-title text-center">Formação colegial</h3>
-            <hr />
-            <h5 className="vertical-timeline-element-subtitle text-center">Ensino médio completo</h5>
-            <hr />
-            <p className="text-center">
-              Escola Celus - AM
-            </p>
-
-
-          </VerticalTimelineElement>
-
+          
           <VerticalTimelineElement
 
             className="vertical-timeline-element--education"

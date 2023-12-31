@@ -35,48 +35,48 @@ export default function Galeria() {
         <div className='servico-content'>
             <h1 style={{ color: "#ADF1D2" }}>SERVIÇOS</h1>
             <div className='cards-content'>
-                <Card className='gap-5' style={{ maxWidth: '24rem', maxHeight: '48rem', backgroundColor: "#553555", color: "#ADF1D2", boxShadow: "0px 0px 15px 3px rgba(173, 241, 210, 1)" }}>
+                <Card className='gap-1' style={{ maxWidth: '24rem', minHeight: '34rem', backgroundColor: "#553555", color: "#ADF1D2", boxShadow: "0px 0px 15px 3px rgba(173, 241, 210, 1)" }}>
                     <Card.Img variant="top" src={helpDesk} />
-                    <Card.Body className='d-flex flex-column' style={{ gap: '50px' }}>
+                    <Card.Body className='d-flex flex-column' style={{ gap: '20px' }}>
                         <Card.Title>Help Desk TI</Card.Title>
                         <Card.Text className="cardText">
                             O Help Desk de TI é uma equipe ou serviço responsável por fornecer suporte técnico aos usuários internos ou externos de uma organização. <br /><br />Ele visa resolver problemas, responder a perguntas e oferecer assistência relacionada a tecnologia.
                         </Card.Text>
-                        <Button className='buttonCard' onClick={helpShow} style={{ width: '100%' }}>Vantagens sobre o serviço</Button>
+                        {/* <Button className='buttonCard' onClick={helpShow} style={{ width: '100%' }}>Vantagens sobre o serviço</Button> */}
                     </Card.Body>
                 </Card>
 
-                <Card className='gap-5' style={{ maxWidth: '24rem', maxHeight: '48rem', backgroundColor: "#553555", color: "#ADF1D2", boxShadow: "0px 0px 15px 3px rgba(173, 241, 210, 1)" }}>
+                <Card className='gap-1' style={{ maxWidth: '24rem', minHeight: '34rem', backgroundColor: "#553555", color: "#ADF1D2", boxShadow: "0px 0px 15px 3px rgba(173, 241, 210, 1)" }}>
                     <Card.Img variant="top" src={infraRedes} />
-                    <Card.Body className='d-flex flex-column' style={{ gap: '85px' }}>
+                    <Card.Body className='d-flex flex-column' style={{ gap: '40px' }}>
                         <Card.Title>Infraestrutura de redes </Card.Title>
                         <Card.Text className="cardText">
                             A infraestrutura de redes refere-se à fundação técnica que suporta a comunicação de dados entre dispositivos, permitindo a troca de informações e o acesso a recursos compartilhados.                        </Card.Text>
-                        <Button className='buttonCard' onClick={cabeamentoShow}>Go somewhere</Button>
+                        {/* <Button className='buttonCard' onClick={cabeamentoShow}>Go somewhere</Button> */}
                     </Card.Body>
                 </Card>
 
-                <Card className='gap-5' style={{ maxWidth: '24rem', maxHeight: '48rem', backgroundColor: "#553555", color: "#ADF1D2", boxShadow: "0px 0px 15px 3px rgba(173, 241, 210, 1)" }}>
+                <Card className='gap-1' style={{ maxWidth: '24rem', minHeight: '34rem', backgroundColor: "#553555", color: "#ADF1D2", boxShadow: "0px 0px 15px 3px rgba(173, 241, 210, 1)" }}>
                     <Card.Img variant="top" src={security} />
-                    <Card.Body className='d-flex flex-column' style={{ gap: '60px' }}>
+                    <Card.Body className='d-flex flex-column' style={{ gap: '20px' }}>
                         <Card.Title>Segurança empresarial de redes</Card.Title>
                         <Card.Text className="cardText">
                             A segurança empresarial de redes é uma área crítica para garantir a proteção de dados, informações e sistemas de uma organização. <br /><br /> À medida que as redes empresariais se tornam mais complexas e interconectadas, os desafios de segurança também aumentam.
                         </Card.Text>
-                        <Button className='buttonCard' onClick={securityShow}>Go somewhere</Button>
+                        {/* <Button className='buttonCard' onClick={securityShow}>Go somewhere</Button> */}
 
                     </Card.Body>
                 </Card>
 
-                <Card className='gap-5' style={{ maxWidth: '24rem', maxHeight: '48rem', backgroundColor: "#553555", color: "#ADF1D2", boxShadow: "0px 0px 15px 3px rgba(173, 241, 210, 1)" }}>
+                <Card className='gap-1' style={{ maxWidth: '24rem', minHeight: '34rem', backgroundColor: "#553555", color: "#ADF1D2", boxShadow: "0px 0px 15px 3px rgba(173, 241, 210, 1)" }}>
                     <Card.Img variant="top" src={webDesigner} />
-                    <Card.Body className='d-flex flex-column' style={{ gap: '47px' }}>
+                    <Card.Body className='d-flex flex-column' style={{ gap: '20px' }}>
                         <Card.Title>Criação de WebSite</Card.Title>
                         <Card.Text className="cardText">
                             A criação de sites é uma disciplina que envolve o desenvolvimento e a implementação de conteúdo online acessível através da internet. <br /><br />
                             Ao criar um site, diversos elementos, como design, usabilidade, funcionalidades e otimização para motores de busca, devem ser considerados.
                         </Card.Text>
-                        <Button className='buttonCard' onClick={webDesignerShow}>Go somewhere</Button>
+                        {/* <Button className='buttonCard' onClick={webDesignerShow}>Go somewhere</Button> */}
                     </Card.Body>
                 </Card>
 
