@@ -8,8 +8,10 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    height: 90vh; 
-    
+    height: auto; 
+    margin-top: 20vh;
+    margin-bottom: 20vh;
+    gap: 40px;
 }
 
 .apresentacao{
